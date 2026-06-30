@@ -1,0 +1,315 @@
+/* ==========================================
+   Soumyadip Thandar Academic Website
+   ========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family: Georgia, "Times New Roman", serif;
+    background:#fafafa;
+    color:#222;
+    line-height:1.8;
+    font-size:18px;
+
+}
+
+.container{
+
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+
+}
+
+/* ===========================
+   Navigation
+   =========================== */
+
+header{
+
+    background:#12355B;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+
+}
+
+nav ul{
+
+    display:flex;
+    justify-content:center;
+    list-style:none;
+
+}
+
+nav li{
+
+    margin:0 22px;
+
+}
+
+nav a{
+
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:18px 0;
+    font-size:18px;
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#ffd166;
+
+}
+
+nav a.active{
+
+    color:#ffd166;
+    font-weight:bold;
+
+}
+
+/* ===========================
+   Hero Section
+   =========================== */
+
+.hero{
+
+    display:flex;
+    gap:50px;
+    align-items:center;
+    margin:50px 0;
+
+}
+
+.profile-image{
+
+    flex:1;
+    text-align:center;
+
+}
+
+.profile-image img{
+
+    width:280px;
+    border-radius:12px;
+    box-shadow:0 6px 20px rgba(0,0,0,.25);
+
+}
+
+.profile-info{
+
+    flex:2;
+
+}
+
+.profile-info h1{
+
+    font-size:44px;
+    color:#12355B;
+    margin-bottom:12px;
+
+}
+
+.profile-info h2{
+
+    color:#666;
+    font-size:26px;
+    margin-bottom:25px;
+    font-weight:normal;
+
+}
+
+/* ===========================
+   Sections
+   =========================== */
+
+section{
+
+    background:white;
+    padding:35px;
+    margin-bottom:35px;
+    border-radius:10px;
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+
+}
+
+section h2{
+
+    color:#12355B;
+    margin-bottom:18px;
+    border-bottom:2px solid #12355B;
+    padding-bottom:8px;
+
+}
+
+section h3{
+
+    color:#333;
+    margin-top:20px;
+    margin-bottom:10px;
+
+}
+
+p{
+
+    margin-bottom:18px;
+    text-align:justify;
+
+}
+
+/* ===========================
+   Lists
+   =========================== */
+
+ul{
+
+    margin-left:28px;
+
+}
+
+ol{
+
+    margin-left:28px;
+
+}
+
+li{
+
+    margin-bottom:12px;
+
+}
+
+/* ===========================
+   Links
+   =========================== */
+
+a{
+
+    color:#0056b3;
+    text-decoration:none;
+
+}
+
+a:hover{
+
+    color:#d62828;
+    text-decoration:underline;
+
+}
+
+/* ===========================
+   Footer
+   =========================== */
+
+footer{
+
+    background:#12355B;
+    color:white;
+    text-align:center;
+    padding:30px;
+    margin-top:40px;
+
+}
+
+/* ===========================
+   Horizontal Rule
+   =========================== */
+
+hr{
+
+    margin:35px 0;
+    border:none;
+    border-top:1px solid #ddd;
+
+}
+
+/* ===========================
+   Tables
+   =========================== */
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+
+}
+
+th,td{
+
+    border:1px solid #ddd;
+    padding:12px;
+
+}
+
+th{
+
+    background:#12355B;
+    color:white;
+
+}
+
+/* ===========================
+   Images
+   =========================== */
+
+img{
+
+    max-width:100%;
+
+}
+
+/* ===========================
+   Mobile
+   =========================== */
+
+@media(max-width:900px){
+
+.hero{
+
+    flex-direction:column;
+    text-align:center;
+
+}
+
+.profile-info{
+
+    text-align:center;
+
+}
+
+.profile-info h1{
+
+    font-size:34px;
+
+}
+
+.profile-info h2{
+
+    font-size:22px;
+
+}
+
+nav ul{
+
+    flex-direction:column;
+
+}
+
+nav li{
+
+    margin:0;
+
+}
+
+}
