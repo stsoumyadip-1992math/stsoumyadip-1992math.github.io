@@ -1019,17 +1019,17 @@ nav{
 }
 
 nav ul{
-
-    flex-direction:column;
-
-    align-items:center;
-
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px 0;
 }
 
 nav li{
-
-    margin:10px 0;
-
+    margin: 0 12px;
+    flex-shrink: 0;
 }
 
 #theme-toggle{
