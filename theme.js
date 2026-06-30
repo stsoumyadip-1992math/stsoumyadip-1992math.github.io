@@ -2,7 +2,7 @@
 // Dark / Light Theme Toggle
 // Soumyadip Thandar Website
 // ==========================================
-
+console.log("theme.js is running");
 // Get saved theme
 const savedTheme = localStorage.getItem("theme");
 
